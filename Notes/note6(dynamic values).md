@@ -1,3 +1,5 @@
+# variable
+```
 
 import React from 'react';
 
@@ -7,10 +9,7 @@ const MyComponent = () => {
   const ratings="9";
   const summary=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit doloribus cum, rem in numquam minima molestiae voluptatem mollitia. Quisquam provident expedita voluptatibus qui earum rem illum minus, ut iusto?"
 
-const returnGenre=()=>{
-  const genre="Romcom";
-  return genre;
-}
+
   return (
     <div>
       <p>Netflix series</p>
@@ -18,7 +17,6 @@ const returnGenre=()=>{
         <li>Name: {name} </li>
         <li>ratings: {ratings}</li>
         <li>{summary}</li>
-        <li><p>Genre: {returnGenre()} </p></li>
       
       </ul>
     </div>
@@ -41,3 +39,12 @@ const App = () => {
 };
 
 export default App;
+
+```
+# expression
+
+```
+ <li>ratings: {5+4}</li>
+```
+
+# function calls
